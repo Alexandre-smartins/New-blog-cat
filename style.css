@@ -38,9 +38,7 @@ header {
   justify-content: center;
   background-color: var(--Brand-Colors-Explorer-dark);
 }
-form {
-  width: 211px;
-}
+
 .input-wrapper input {
 width: 211px;
 padding: 12px 16px 12px 14px;
