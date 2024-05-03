@@ -94,10 +94,13 @@ gap: 12px;
 button {
   border: 0;
   background-color: #FFF;
+  transition: all 200ms ease-out;
 }
 
 button:hover {
-  opacity: 0.5;
+  filter: hue-rotate(7deg) contrast(101%) saturate(200%);
+  transform: scale(1.1) rotate(-2deg);
+
 }
 
 section {
@@ -150,6 +153,15 @@ aside {
   display: flex;
   align-items: center;
   gap: 16px;
+}
+
+aside figure {
+  transition: all 200ms ease-out;
+}
+
+aside figure:hover {
+  filter: hue-rotate(7deg) contrast(101%) saturate(200%);
+  transform: scale(1.1) rotate(-2deg);
 }
 
 footer {
