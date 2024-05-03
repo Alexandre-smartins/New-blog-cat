@@ -188,3 +188,77 @@ font-style: normal;
 font-weight: 600;
 line-height: normal;
 }
+
+
+@media (min-width:760px) {
+  body {
+    width: 1440px;
+    height: 1090px;
+  }
+
+  #app {
+    display: grid;
+    grid-template-areas: "header header"
+    "main article"
+    "footer footer";
+  }
+
+  .title {
+    display: flex;
+  }
+
+header {
+grid-area: header;
+display: flex;
+width: 1440px;
+height: 72px;
+padding: 12px 112px;
+justify-content: space-between;
+align-items: center;
+flex-shrink: 0;
+}
+
+.input-wrapper input {
+display: flex;
+width: 1083px;
+}
+
+main #bkimagem {
+width: 803px;
+height: 405px;
+}
+
+main {
+  grid-area: main;
+  margin-top: 44px;
+  width: 808px;
+margin-right: 34px;
+}
+
+.title {
+display: inline-flex;
+align-items: center;
+gap: 366px;
+flex-direction: row;
+}
+
+
+section p {
+width: 800px
+}
+
+footer {
+display: flex;
+width: 1440px;
+height: 64px;
+padding: 16px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+  grid-area: footer;
+  margin-top: 39px;
+}
+
+}
