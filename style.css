@@ -138,10 +138,10 @@ margin-bottom: 32px;
 }
 
 aside {
+  width: 382px;
   display: flex;
   align-items: center;
   gap: 16px;
-
 }
 
 footer {
