@@ -153,6 +153,7 @@ aside {
   display: flex;
   align-items: center;
   gap: 16px;
+  overflow: hidden;
 }
 
 aside figure {
@@ -161,7 +162,7 @@ aside figure {
 
 aside figure:hover {
   filter: hue-rotate(7deg) contrast(101%) saturate(200%);
-  transform: scale(1.1) rotate(-2deg);
+  transform: scale(1.1) rotate(-2deg);´
 }
 
 footer {
