@@ -74,7 +74,6 @@ flex-direction: column;
 justify-content: center;
 align-items: flex-start;
 gap: 8px;
-
 margin: 31px 0;
 }
 
@@ -90,6 +89,15 @@ line-height: 160%; /* 38.4px */
 display: flex;
 align-items: flex-start;
 gap: 12px;
+}
+
+button {
+  border: 0;
+  background-color: #FFF;
+}
+
+button:hover {
+  opacity: 0.5;
 }
 
 section {
