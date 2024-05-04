@@ -16,6 +16,8 @@ html {
 :root {
   --Brand-Colors-Explorer-dark:#065E7C;
   --Platform-Aliases-Shape-principal:#202024;
+
+  font-size: 62,5%;
 }
 
 body {
@@ -23,6 +25,7 @@ body {
   width: 430px;
   height: 100vh;
   margin: auto;
+  font-size:16px;
 
 }
 
@@ -31,9 +34,9 @@ header {
   display: flex;
 
   height: 72px;
-  padding: 12px 28px;
+  padding: 1.2rem 2.8rem;
   align-items: center;
-  gap: 25px;
+  gap: 2.5rem;
   flex-shrink: 0;
   justify-content: center;
   background-color: var(--Brand-Colors-Explorer-dark);
@@ -41,9 +44,9 @@ header {
 
 .input-wrapper input {
 width: 211px;
-padding: 12px 16px 12px 14px;
+padding: 1.2px 1.6rem 1.2rem 1.6rem 1.4rem 1.6rem;
 align-items: center;
-gap: 12px;
+gap: 1.2rem;
 flex: 1 0 0;
 background: rgba(255, 255, 255, 0.20);
 }
@@ -58,7 +61,6 @@ background: rgba(255, 255, 255, 0.20);
 
 .input-wrapper ::placeholder {
 color: #FFF;
-font-size: 16px;
 font-weight: 600;
 line-height: 100%
 }
@@ -73,22 +75,22 @@ display: inline-flex;
 flex-direction: column;
 justify-content: center;
 align-items: flex-start;
-gap: 8px;
-margin: 31px 0;
+gap: 0.8rem;
+margin: 3.1rem 0px;
 }
 
 .title h1 {
 color: var(--Platform-Aliases-Shape-principal, #202024);
-font-size: 24px;
+font-size: 2.4rem;
 font-style: normal;
 font-weight: 700;
-line-height: 160%; /* 38.4px */
+line-height: 3.8rem;
 }
 
 .action {
 display: flex;
 align-items: flex-start;
-gap: 12px;
+gap: 1.2rem;
 }
 
 button {
@@ -109,7 +111,6 @@ section {
 
 section p {
 color: var(--Platform-Aliases-Background, #121214);
-font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: 160%; /* 25.6px */
@@ -120,39 +121,39 @@ color: var(--Platform-Aliases-Shape-principal, #202024);
 font-size: 18px;
 font-style: normal;
 font-weight: 700;
-line-height: 160%; /* 28.8px */
+line-height: 2.8rem;
 }
 
 figcaption span {
 color: var(--Platform-Aliases-Background, #121214);
-font-size: 14px;
+font-size: 1.4rem;
 font-style: normal;
 font-weight: 400;
-line-height: 160%; /* 22.4px */
+line-height: 2.2rem; 
 }
 
 article {
-margin: 31px 0px 39px 0px;
+margin: 3.1rem 0px 3.9rem 0px;
 display: flex;
 flex-direction: column;
 align-items: flex-start;
-gap: 32px;
+gap: 3.2rem;
 }
 
 article h2 {
 color: var(--Platform-Aliases-Shape-principal, #202024);
-font-size: 24px;
+font-size: 2.4rem;
 font-style: normal;
 font-weight: 700;
-line-height: 160%; /* 38.4px */
-margin-bottom: 32px;
+line-height: 3.8rem; 
+margin-bottom: 3.2rem;
 }
 
 aside {
   width: 382px;
   display: flex;
   align-items: center;
-  gap: 16px;
+  gap: 1.6rem ;
   overflow: hidden;
 }
 
@@ -170,11 +171,11 @@ background-color: #387E96;
 display: flex;
 width: 430px;
 height: 64px;
-padding: 16px;
+padding: 1.6rem;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-gap: 10px;
+gap: 1.0rem;
 flex-shrink: 0;
 }
 
@@ -183,7 +184,6 @@ color: #FFF;
 text-decoration: none;
 text-align: center;
 font-family: Mulish;
-font-size: 16px;
 font-style: normal;
 font-weight: 600;
 line-height: normal;
@@ -212,7 +212,6 @@ grid-area: header;
 display: flex;
 width: 1440px;
 height: 72px;
-padding: 12px 112px;
 justify-content: space-between;
 align-items: center;
 flex-shrink: 0;
@@ -251,14 +250,13 @@ footer {
 display: flex;
 width: 1440px;
 height: 64px;
-padding: 16px;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-gap: 10px;
+gap: 1.0rem;
 flex-shrink: 0;
   grid-area: footer;
-  margin-top: 39px;
+  margin-top: 3.9rem;
 }
 
 }
